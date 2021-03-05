@@ -1,0 +1,103 @@
+.navbar {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: bisque;
+  overflow-x: hidden;
+  padding-top: 110px;
+}
+
+.nav-link-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+	border-bottom: 1px solid transparent;
+    padding-top: 30px;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+	color: #8a8a8a;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+	border-bottom: 2px solid rosybrown;
+}
+
+.nav-link-wrapper a:hover {
+	color: rosybrown;
+}
+
+..navbar {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+
+body {
+   background-image: url("white_background_img.jpg");
+   background-color: white;
+}
+
+.margin {
+    margin-left: 170px;
+    margin-right: 20px;
+}
+.centered-content {
+    text-align: center;
+    font-family: sans-serif;
+    font-stretch: ultra-expanded;
+    font-size: 26px;
+}
+
+.under-title{
+    text-align: left;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.text{
+    font-size: 20px;
+    text-align: left;
+}
+
+.table-intro{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+table.table {
+    border: 6px solid #FCE1C4;
+    background-color: #FFD9C3;
+    text-align: left;
+}
+table.table td, table.table th {
+    border: 1px solid #DDC6AC;
+    padding: 4px 4px;
+}
+table.table tbody td {
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+}
+table.table thead {
+  background: #E2CAB0;
+}
+table.table thead th {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: serif;
+  letter-spacing: 3px;
+  color: #000000;
+  text-align: center;
+}
